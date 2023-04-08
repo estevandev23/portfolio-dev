@@ -1,0 +1,28 @@
+.navigation-mobile{
+  display: flex;
+  position: fixed;
+  right: 15px;
+  bottom: 70px;
+}
+
+.navigation-mobile ul{
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 5px;
+}
+
+.navigation-mobile ul li {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--color-hover-backdrop);
+}
+
+@media (min-width: 768px){
+  .navigation-mobile{
+    display: none;
+  }
+}

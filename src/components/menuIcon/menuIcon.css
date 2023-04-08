@@ -1,0 +1,44 @@
+
+.icon-menu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  aspect-ratio: 1/1;
+  gap: 5px;
+  background-color: var(--color-backdrop);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--color-backdrop-invert);
+  cursor: pointer;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 100;
+}
+
+.icon-menu div {
+  width: 28px;
+  height: 2px;
+  background-color: var(--color-words-primary);
+  border-radius: 2px;
+  transition: 0.3s ease-in-out;
+}
+
+.icon-menu.open div:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.icon-menu.open div:nth-child(2) {
+  opacity: 0;
+}
+
+.icon-menu.open div:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media (min-width: 768px) {
+  .icon-menu{
+    display: none;
+  }
+}

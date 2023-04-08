@@ -1,0 +1,22 @@
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons a {
+  padding: 3px;
+}
+
+.social-icons a svg {
+  width: 45px;
+  aspect-ratio: 1/1;
+  scale: 1;
+  transition: filter 0.2s ease ease-in-out;
+  -webkit-transition : -webkit-filter 0.2s ease-in-out
+}
+
+.social-icons a svg:hover {
+  filter: drop-shadow(0px 0px 10px rgba(0, 195, 255, 0.466));
+}

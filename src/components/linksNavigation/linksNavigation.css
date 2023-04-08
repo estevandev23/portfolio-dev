@@ -1,0 +1,10 @@
+.links a {
+  text-decoration: none;
+  color: var(--color-words-primary);
+  font-size: 16px;
+}
+
+.links {
+  background-color: var(--color-backdrop);
+  list-style: none;
+}

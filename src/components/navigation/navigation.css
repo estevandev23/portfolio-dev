@@ -1,0 +1,87 @@
+.navigation{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    min-height: 100vh;
+    position: sticky;
+    left: 0;
+    top: 0;
+    padding: 20px;
+  }
+
+  .navigation h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .button-dark {
+    cursor: pointer;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: fit-content;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    transition: background-color 0.25s ease-in-out;
+  }
+
+  .button-dark:hover {
+    background-color: var(--color-hover-backdrop);
+  }
+
+  .button-dark svg {
+    fill: var(--color-words-primary);
+    width: 25px;
+  }
+
+  .navigation ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .navigation li {
+    border-radius: 10px;
+    padding: 8px 20px;
+    width: 100%;
+    transition: background-color 0.25s ease-in-out;
+    text-align: center;
+  }
+
+  .selected li{
+    background-color: var(--color-hover-backdrop);
+  }
+
+  .navigation ul a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 2px;
+    opacity: 1;
+    background: var(--color-hover-backdrop);
+    transition: opacity 0.25s ease-in-out;
+  }
+
+  .navigation ul a:hover::after {
+    opacity: 0;
+  }
+  
+  .navigation li:hover{
+    background-color: var(--color-hover-backdrop);
+  }
+}

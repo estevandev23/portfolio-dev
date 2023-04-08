@@ -1,0 +1,123 @@
+.container-presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.container-presentation h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 100%;
+  margin: 0;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+}
+
+.container-presentation h2{
+  font-size: 18px;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+.container-presentation h2 span {
+  font-weight: 500;
+  font-family: var(--font-secondary);
+  color: var(--font-color-primary);
+}
+
+.container-presentation p{
+  font-size: 16px;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  margin-top: 15px;
+  margin: 0;
+}
+
+.container-presentation .button-download {
+  font-size: 16px;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  text-decoration: none;
+  border: 2px solid var(--font-color-primary);
+  color: var(--font-color-primary);
+  background-color: rgba(255, 255, 0, 0.089);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.container-presentation .button-download:hover {
+  background-color: rgba(255, 255, 0, 0.144);
+  
+}
+
+.container-presentation img {
+  width: 100%;
+  max-width: 500px;
+  transition: filter 0.4s ease ease-in-out;
+  -webkit-transition : -webkit-filter 0.4s ease-in-out
+}
+
+.container-presentation img:hover {
+  filter: drop-shadow(0px 0px 30px rgba(255, 255, 0, 0.178));
+}
+
+.texts-presentation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button-next {
+  color: var(--color-backdrop-invert);
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 1;
+  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.button-next span{
+  padding: 5px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-next span svg{
+  width: 25px;
+  fill: var(--color-backdrop-invert);
+  transition: fill 0.3s ease-in-out;
+}
+
+.button-next:hover {
+  color: var(--color-words-primary);
+  opacity: 0.5;
+}
+
+.button-next:hover span svg {
+  fill: var(--color-words-primary);
+}
+
+@media (min-width: 1200px) {
+  .container-presentation {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .container-presentation h1 {
+    font-size: 3.5rem;
+  }
+
+  .container-presentation img{
+    width: 50%;
+  }
+}
