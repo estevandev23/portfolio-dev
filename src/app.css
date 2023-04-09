@@ -30,6 +30,7 @@ body {
   justify-content: center;
   box-shadow: 0px 0px 8px 0px var(--color-backdrop-invert);
   cursor: pointer;
+  z-index: 4;
 }
 
 .navegation{

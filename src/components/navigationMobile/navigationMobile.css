@@ -3,6 +3,7 @@
   position: fixed;
   right: 15px;
   bottom: 70px;
+  z-index: 4;
 }
 
 .navigation-mobile ul{
