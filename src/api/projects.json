@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Register Project",
+    "description": "It's te first project I made in PHP, it's a register form with a database connection, it's little responsive, I learned some things for my nexts projects.",
+    "url": {
+      "public": "https://registro-prac.up.railway.app/index.php",
+      "github":"https://github.com/EstebanV23/TrabajoRegistro"
+    },
+    "image": [],
+    "tags": [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "CSS"
+    ],
+    "date": "17-05-2022"
+  },
+  {
+    "id": 2,
+    "name": "Puzzle Practice",
+    "description": "This project is a puzzle game, it's made with HTML, CSS and JavaScript, it's a simple layout, I practiced a lot with the logic of the game, also I did with a library, I can say that this libary was the first I used in my projects.",
+    "url": {
+      "public": "https://puzzle-prac.netlify.app/puzzle.html",
+      "github":"https://github.com/EstebanV23/TrabajoRegistro"
+    },
+    "image": [],
+    "tags": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    "date": "05-10-2022"
+  },
+  {
+    "id": 3,
+    "name": "Control DOM",
+    "description": "Here I could practice with the DOM, I could add, remove and modify elements, I could also add events to the elements, add conditional styles depending on the events that happened",
+    "url": {
+      "public": "https://control-dom.netlify.app/",
+      "github":"https://github.com/EstebanV23/tallerDom"
+    },
+    "image": [],
+    "tags": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    "date": "10-10-2022"
+  },
+  {
+    "id": 4,
+    "name": "Login and sessions with PHP",
+    "description": "Here I could practice with the DOM, I could add, remove and modify elements, I could also add events to the elements, add conditional styles depending on the events that happened",
+    "url": {
+      "public": "https://login-php.up.railway.app/view/templates/home.php",
+      "github":"https://github.com/EstebanV23/login_with_php"
+    },
+    "image": [],
+    "tags": [
+      "PHP",
+      "MySql",
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    "date": "23-12-2022"
+  }
+]

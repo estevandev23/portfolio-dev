@@ -59,7 +59,6 @@ body {
   header {
     background: var(--color-backdrop);
     width: fit-content;
-    padding: 20px;
     position: relative;
     width: min(100%, 270px);
   }
