@@ -29,7 +29,7 @@ export default function AboutMe () {
       className='container-about-me'
     >
       <motion.h2 variants={item}>About Me</motion.h2>
-      <motion.p variants={item}>I am a fullstack web developer, I love to develop software that can help other people, I also like to learn daily because I think this is the fundamental basis to improve my skills with code as well as soft skills, I know I can be a great opportunity for your company or project, if you want to contact me, you will have the contacts in the <NavLink to='/' className='redirect'>home page</NavLink></motion.p>
+      <motion.p variants={item}>I am a fullstack web developer, with React and Node I have did sundry projects, as well I hace did projects with Spingboot, React Native, PHP, Laravel and Java. I love to develop software that can help other people, I also like to learn daily because I think this is the fundamental basis to improve my skills with code as well as soft skills, I know I can be a great opportunity for your company or project, if you want to contact me, you will have the contacts in the <NavLink to='/' className='redirect'>home page</NavLink></motion.p>
       <div>
         <motion.h3 variants={item}>Experience</motion.h3>
         <EducationItem item={item} dateInitial='Jun-2022' dateFinal='Mar-2023'>

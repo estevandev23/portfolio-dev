@@ -1,0 +1,32 @@
+.card {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(1px);
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.247);
+  transform: skewX(45deg) translateX(350px);
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  backdrop-filter: blur(20px);
+  background: var(--hover-card);
+  box-shadow: 0px 0px 20px 10px var(--hover-card);
+}
+
+
+.card:hover::before {
+  transform: skewX(45deg) translateX(-150px);
+}

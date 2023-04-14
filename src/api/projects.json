@@ -17,6 +17,26 @@
     "date": "17-05-2022"
   },
   {
+    "id": 14,
+    "name": "Nike Clone",
+    "description": "This project is a clone of the nike, I get it my personal style, it was the first big project that I did, I learned a lot of thing, for example, login system, get data from join tables, CRUD, etc. This project was , I did it with PHP, MySQL, HTML, CSS, Javascript, Bootstrap. U:user, P:password",
+    "indications": ["U:root, P:nikejustdoit"],
+    "url": {
+      "public": "https://nike-production.up.railway.app/index.php",
+      "github":"https://github.com/EstebanV23/nike"
+    },
+    "image": [],
+    "tags": [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap"
+    ],
+    "date": "04-06-2022"
+  },
+  {
     "id": 2,
     "name": "Puzzle Practice",
     "description": "This project is a puzzle game, it's made with HTML, CSS and JavaScript, it's a simple layout, I practiced a lot with the logic of the game, also I did with a library, I can say that this libary was the first I used in my projects.",
@@ -50,7 +70,8 @@
   },
   {
     "id": 4,
-    "description": "Here I could practice with the DOM, I could add, remove and modify elements, I could also add events to the elements, add conditional styles depending on the events that happened, also you can loggin with the differents accounts that I created for you, so that you can see all features that I did, then if you want to test the application, you can do it with the nexts accounts. U:username, P:password",
+    "name": "Roles Project",
+    "description": "Here I could practice with the DOM, add conditional styles depending on the events that happened, I also render pages depending of role, each role can do it a different functions, some can do it all, while other only 1 thing, visit the calculator page, also you can loggin with the differents accounts that I created for you, so that you can see all features that I did, then if you want to test the application, you can do it with the nexts accounts. U:username, P:password",
     "indications": ["Superadmin: U:admin, P:admincontrol", "Admin: U:codevelop23, P:brayan12345", "Jefe: U:jefecito, P:jefe123", "Logueado: Just register on the app"],
     "url": {
       "public": "https://login-php.up.railway.app/view/templates/home.php",
@@ -68,6 +89,7 @@
   },
   {
     "id": 5,
+    "name": "Quiz Js",
     "description": "This project is the simple quiz about Javascript, I did with vanilla js, I had to practice for resolve the problems that I'm fiding of the road, It's a simple layout but I'm proud of it, I learned a lot with this project, I hope you like it.",
     "url": {
       "public": "https://estebanv23.github.io/00-front-coex/src/",
@@ -83,6 +105,7 @@
   },
   {
     "id": 6,
+    "name": "Calculator",
     "description": "The calculator is the most popular project that we can do it for initial our walk in the world of programming, I did it with vanilla js, although I had done in the other languages, I never do it with javascript",
     "url": {
       "public": "https://estebanv23.github.io/01-calculator/src/",
@@ -98,6 +121,7 @@
   },
   {
     "id": 7,
+    "name": "Dashboard",
     "description": "With this project, I practiced a lot of css, I did it with grid and flexbox, I also align the elements in the layout for the good view of the page.",
     "url": {
       "public": "https://estebanv23.github.io/02-dashboard/",
@@ -112,6 +136,7 @@
   },
   {
     "id": 8,
+    "name": "Poke Api",
     "description": "The poke api is the first project public that I did with fetch, I did it but it was in other repositorioes and projects, this project I trusted to do the best possible, I did it with vanilla js, I practiced a lot with the api, I learned a lot with this project, I hope you like it.",
     "indications":["you can search the pokemon by name or id", "you can see the stats of the pokemon if you click on the card"],
     "url": {
@@ -128,6 +153,7 @@
   },
   {
     "id": 9,
+    "name": "Triki Game",
     "description": "This project is the triki game, I did it with vanilla js, The game consist in that the first player put a X in the board, then the bot put a O, and the first player put a X, and so on, the first player that put three X or O in a row, column or diagonal, win the game, I did it with the poo paradigm.",
     "url": {
       "public": "https://estebanv23.github.io/05-triki/",
@@ -143,6 +169,7 @@
   },
   {
     "id": 10,
+    "name": "Follow Card",
     "description": "The first project I did with React js, I practiced with the useState and simple components, also I learned how React work with the virtual DOM, how it's render the components, the props, and how to compile the code.",
     "url": {
       "public": "https://esteban-follow-card.netlify.app/",
@@ -158,7 +185,8 @@
   },
   {
     "id": 11,
-    "description": "This porject is the update of the triki game that I did with vanilla js, this time I did it with React js, I practiced with the useState, useEffect, and I modifing the game logic, now it's make to play with two players, adding the logic of the turns, and the winner, I also did the logic of the draw, and the logic of the restart button. Really good practice with this.",
+    "name": "Triki Update",
+    "description": "This project is the update of the triki game that I did with vanilla js, this time I did it with React js, I practiced with the useState, useEffect, and I modifing the game logic, now it's make to play with two players, adding the logic of the turns, and the winner, I also did the logic of the draw, and the logic of the restart button. Really good practice with this.",
     "url": {
       "public": "https://esteban-tic-tac-toe.netlify.app/",
       "github":"https://github.com/EstebanV23/practica-react/tree/main/projects/tic-tac-toe"
@@ -173,6 +201,7 @@
   },
   {
     "id": 12,
+    "name": "Mouse Follow",
     "description": "With this project I was be able to practice with the useState, useEffect, I also add and remove event listeners of the components, I learning how the function of the event listeners in js",
     "url": {
       "public": "https://esteban-mouse-follow.netlify.app/",
@@ -188,7 +217,8 @@
   },
   {
     "id": 13,
-    "description": "This project was the test that I did, when I practiced React tought with MongoDB, I also I do it with react router DOM",
+    "name": "Credits People",
+    "description": "This project was the test that I did, when I practiced React tought with MongoDB, I also I did it with react router DOM, connect with node js for the make the CRUD",
     "url": {
       "public": "https://front-coex-test.netlify.app/",
       "github":"https://github.com/EstebanV23/test-coex"

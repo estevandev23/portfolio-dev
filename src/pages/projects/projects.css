@@ -1,0 +1,9 @@
+.porject-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding: 0 20px;
+  min-height: 100vh;
+}
