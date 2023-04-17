@@ -4,6 +4,6 @@
   display: grid;
   place-items: center;
   width: 100%;
-  padding: 0 20px;
+  padding: 40px 20px;
   min-height: 100vh;
 }

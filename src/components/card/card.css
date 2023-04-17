@@ -6,6 +6,13 @@
   backdrop-filter: blur(1px);
   overflow: hidden;
   transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container-card {
+  transition: 0.1s ease-in-out;
 }
 
 .card::before {
@@ -29,4 +36,128 @@
 
 .card:hover::before {
   transform: skewX(45deg) translateX(-150px);
+}
+.card h2 {
+  font-family: var(--font-secondary);
+}
+
+.card p {
+  font-family: var(--font-secondary);
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.card-urls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.links-project::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--color-words-primary);
+  transition: width 0.3s;
+}
+
+.links-project:hover::before {
+  width: 100%;
+}
+
+.links-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--color-words-primary);
+  gap: 4px;
+  position: relative;
+}
+
+.date-card {
+  font-size: 12px;
+}
+
+.links-project svg {
+  fill: var(--color-words-primary);
+  width: 14px;
+}
+
+.tags-container {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  gap: 4px
+}
+
+.content-card-time {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.circle-tags {
+  width: 10px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  opacity: 60%;
+}
+
+.php {
+  background: #8993be;
+}
+
+.javascript, .js {
+  background: #f7df1e;
+}
+
+.springboot {
+  background: #6db33f;
+}
+
+.nodejs, .node {
+  background: #83cd29;
+}
+
+.mysql {
+  background: #4479a1;
+}
+
+.mongodb {
+  background: #47a248;
+}
+
+.react {
+  background: #61dafb;
+}
+
+.html {
+  background: #e34c26;
+}
+
+.css {
+  background: #264de4;
+}
+
+.bootstrap {
+  background: #563d7c;
 }

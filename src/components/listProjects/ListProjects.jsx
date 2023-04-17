@@ -4,6 +4,32 @@ import Card from '../card/Card'
 import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
+function animation3D (e, iam) {
+  console.log(e, iam)
+}
+
+const container = {
+  hidden: { opacity: 0, y: -10 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      staggerChildren: 0.2
+    }
+  }
+}
+
+const item = {
+  hidden: { opacity: 0, x: 10 },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      staggerChildren: 0.2
+    }
+  }
+}
+
 function List ({ setSetIdLayout }) {
   return MyList.map((element) => (
     <Card
@@ -17,13 +43,10 @@ function List ({ setSetIdLayout }) {
       id={element.id}
       setIdLayout={setSetIdLayout}
       element={element}
+      item={item}
       onMouseEnter={(e) => animation3D(e, this)}
     />
   ))
-}
-
-function animation3D (e, iam) {
-  console.log(e, iam)
 }
 
 export default function ListProjects () {
@@ -31,9 +54,14 @@ export default function ListProjects () {
 
   return (
     <>
-      <div className='card-list'>
+      <motion.div
+        initial='hidden'
+        animate='show'
+        variants={container}
+        className='card-list'
+      >
         <List setSetIdLayout={setSetIdLayout} />
-      </div>
+      </motion.div>
       <AnimatePresence>
         {idLayout && (
           <div className='backdrop' onClick={() => setSetIdLayout(null)}>
