@@ -21,7 +21,13 @@
 
 .card-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-gap: 10px;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card-list {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 }

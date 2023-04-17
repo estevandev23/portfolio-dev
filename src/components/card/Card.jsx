@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import './card.css'
 import { GitHubIcon, WebIcon } from '../Icons'
-import { useRef, useState } from 'react'
+import { useLayoutEffect, useRef, useState } from 'react'
 
 const childrens = {
   hidden: { opacity: 0, x: -10 },
@@ -12,10 +12,9 @@ const childrens = {
 }
 
 function mouseMove (e, height, width) {
-  console.log(e)
-  const { movementX, movementY } = e
-  const x = ((movementX - width / 2) / width) * 10
-  const y = ((movementY - height / 2) / height) * 10
+  const { layerX, layerY } = e
+  const x = ((layerX - width / 2) / width) * 10
+  const y = ((layerY - height / 2) / height) * 10
 
   return `perspective(500px) rotateX(${x}deg) rotateY(${y}deg) scale(1.05)`
 }
@@ -28,12 +27,15 @@ export default function Card ({ id, name, description, url, image, tags, date, s
   const ref = useRef(null)
   const [styles3D, setStyles3D] = useState(resetStyles())
 
+  useLayoutEffect(() => {
+    ref.current.addEventListener('mousemove', (event) => setStyles3D(mouseMove(event, ref.current.clientHeight, ref.current.clientWidth)))
+  }, [])
+
   return (
     <div
       style={{ transform: styles3D }}
       className='container-card'
       ref={ref}
-      onMouseMove={(event) => setStyles3D(mouseMove(event, ref.current.clientHeight, ref.current.clientWidth))}
       onMouseLeave={() => setStyles3D(resetStyles())}
     >
       <motion.div
