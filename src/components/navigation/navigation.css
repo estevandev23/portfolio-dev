@@ -66,7 +66,8 @@
   .selected li{
     background-color: var(--color-hover-backdrop);
   }
-
+  
+  
   .navigation ul a::after {
     content: "";
     display: block;
@@ -77,8 +78,12 @@
     background: var(--color-hover-backdrop);
     transition: opacity 0.25s ease-in-out;
   }
-
+  
   .navigation ul a:hover::after {
+    opacity: 0;
+  }
+  
+  .link.selected::after {
     opacity: 0;
   }
   

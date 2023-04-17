@@ -17,9 +17,15 @@ function List ({ setSetIdLayout }) {
       id={element.id}
       setIdLayout={setSetIdLayout}
       element={element}
+      onMouseEnter={(e) => animation3D(e, this)}
     />
   ))
 }
+
+function animation3D (e, iam) {
+  console.log(e, iam)
+}
+
 export default function ListProjects () {
   const [idLayout, setSetIdLayout] = useState(null)
 

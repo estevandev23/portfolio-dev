@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import './card.css'
 
-export default function Card ({ id, name, description, url, image, tags, date, setIdLayout, item, element }) {
+export default function Card ({ id, name, description, url, image, tags, date, setIdLayout, item, element, onMoueEnter, onMouseLeave }) {
   return (
     <div className='container-card'>
       <motion.div
@@ -9,6 +9,8 @@ export default function Card ({ id, name, description, url, image, tags, date, s
         layoutId={id}
         onClick={() => setIdLayout({ id, element })}
         className='card'
+        onMouseEnter={onMoueEnter}
+        onMouseLeave={onMouseLeave}
       >
         <motion.h2>{name}</motion.h2>
         <motion.p>{description.substring(0, 50)}...</motion.p>
