@@ -15,17 +15,6 @@
   transition: transform 50ms ease-in-out;
 }
 
-.card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.247);
-  transform: skewX(45deg) translateX(650px);
-  transition: 0.7s ease-in-out;
-}
 
 .card:hover {
   backdrop-filter: blur(20px);
@@ -33,10 +22,31 @@
   box-shadow: 0px 0px 20px 10px var(--hover-card);
 }
 
-
-.card:hover::before {
-  transform: skewX(45deg) translateX(-550px);
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background-color: var(--light-color);
+  animation-iteration-count: 10s;
+  animation: ligthTransition 5s ease-in-out infinite;
 }
+
+@keyframes ligthTransition {
+  0% {
+    transform: skewX(45deg) translateX(650px);
+  }
+  20% {
+    transform: skewX(45deg) translateX(-550px);
+  }
+
+  100% {
+    transform: skewX(45deg) translateX(-550px);
+  }
+}
+
 .card h2 {
   font-family: var(--font-secondary);
 }
