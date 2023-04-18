@@ -53,6 +53,21 @@ export function WebIcon () {
   )
 }
 
+export function Arrow () {
+  return (
+    <motion.svg
+      xmlns='http://www.w3.org/2000/svg'
+      initial='hidden'
+      animate='show'
+      exit='hidden'
+      variants={variants}
+      viewBox='0 75 750 750'
+    >
+      <path d='m375 816-43-43 198-198-198-198 43-43 241 241-241 241Z' />
+    </motion.svg>
+  )
+}
+
 export function GitHubIcon () {
   return (
     <motion.svg

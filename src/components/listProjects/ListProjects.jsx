@@ -2,8 +2,8 @@ import './listProjects.css'
 import MyList from './../../api/projects.json'
 import Card from '../card/Card'
 import { useState } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
-import LinksUrlIcons from '../linksUrlIcons/LinksUrlIcons'
+import { motion } from 'framer-motion'
+import ExpandCard from '../expandCard/ExpandCard'
 
 function animation3D (e, iam) {
   console.log(e, iam)
@@ -63,26 +63,7 @@ export default function ListProjects () {
       >
         <List setSetIdLayout={setSetIdLayout} />
       </motion.div>
-      <AnimatePresence>
-        {idLayout && (
-          <>
-            <div className='backdrop' onClick={() => setSetIdLayout(null)} />
-            <motion.div layoutId={idLayout.id} className='expand-card'>
-              <motion.h5>{idLayout.element.name}</motion.h5>
-              <div>
-                <motion.img src={idLayout.element.image[0]} />
-                <div>
-                  <motion.p>{idLayout.element.description}</motion.p>
-                  <motion.div>
-                    <LinksUrlIcons url={idLayout.element.url} />
-                  </motion.div>
-                </div>
-              </div>
-              <motion.button className='button-close' onClick={() => setSetIdLayout(null)}>X</motion.button>
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>
+      <ExpandCard idLayout={idLayout} setSetIdLayout={setSetIdLayout} />
     </>
   )
 }

@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import './card.css'
 import { useLayoutEffect, useRef, useState } from 'react'
 import LinksUrlIcons from '../linksUrlIcons/LinksUrlIcons'
+import TagList from '../../tagsList/TagList'
+import { Arrow } from '../Icons'
 
 const childrens = {
   hidden: { opacity: 0, x: -10 },
@@ -28,7 +30,7 @@ export default function Card ({ id, name, description, url, image, tags, date, s
   const refMouse = useRef(null)
 
   const [styles3D, setStyles3D] = useState(resetStyles())
-  const [position, setPosition] = useState({ x: 0, y: 0 })
+  const [position, setPosition] = useState({ x: 125, y: 125 })
 
   function ligthMouseMove (event) {
     const { layerX, layerY } = event.nativeEvent
@@ -36,7 +38,7 @@ export default function Card ({ id, name, description, url, image, tags, date, s
   }
 
   function removeEvent () {
-    setPosition({ x: 0, y: 0 })
+    setPosition({ x: 125, y: 125 })
   }
 
   useLayoutEffect(() => {
@@ -65,18 +67,14 @@ export default function Card ({ id, name, description, url, image, tags, date, s
       >
         <motion.h2 variants={childrens}>{name}</motion.h2>
         <motion.img src={image[0]} />
-        <motion.p variants={childrens}>{description.substring(0, 50)}...</motion.p>
+        <motion.p variants={childrens} className='description-card'>{description.split(' ').slice(0, 20).join(' ')} <Arrow /> </motion.p>
         <motion.div className='card-urls' variants={childrens}>
           <LinksUrlIcons url={url} />
         </motion.div>
         <motion.div variants={childrens} className='content-card-time'>
           <p className='date-card'>{date}</p>
           <div className='tags-container'>
-            {
-              tags.map((tag) => (
-                <motion.p variants={childrens} className='tags-card' key={tag}><span className={`circle-tags ${tag.toLowerCase()}`} />{tag}</motion.p>
-              ))
-            }
+            <TagList variants={childrens} tags={tags} />
           </div>
         </motion.div>
       </motion.div>

@@ -138,7 +138,7 @@
     "id": 8,
     "name": "Poke Api",
     "description": "The poke api is the first project public that I did with fetch, I did it but it was in other repositorioes and projects, this project I trusted to do the best possible, I did it with vanilla js, I practiced a lot with the api, I learned a lot with this project, I hope you like it.",
-    "indications":["you can search the pokemon by name or id", "you can see the stats of the pokemon if you click on the card"],
+    "indications":["You can search the pokemon by name or id", "You can see the stats of the pokemon if you click on the card"],
     "url": {
       "public": "https://estebanv23.github.io/03-pokeApi/",
       "github":"https://github.com/EstebanV23/03-pokeApi"

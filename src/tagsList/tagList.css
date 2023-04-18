@@ -1,0 +1,70 @@
+.tags-container {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: var(--font-primary) !important;
+  gap: 4px
+}
+
+.content-card-time {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.circle-tags {
+  width: 10px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  opacity: 60%;
+}
+
+.php {
+  background: #8993be;
+}
+
+.javascript, .js {
+  background: #f7df1e;
+}
+
+.springboot {
+  background: #6db33f;
+}
+
+.nodejs, .node {
+  background: #83cd29;
+}
+
+.mysql {
+  background: #4479a1;
+}
+
+.mongodb {
+  background: #47a248;
+}
+
+.react {
+  background: #61dafb;
+}
+
+.html {
+  background: #e34c26;
+}
+
+.css {
+  background: #264de4;
+}
+
+.bootstrap {
+  background: #563d7c;
+}

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { GitHubIcon, WebIcon } from '../Icons'
+import './linksUrlIcons.css'
 
 export default function LinksUrlIcons ({ url }) {
   return (
