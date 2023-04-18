@@ -2,6 +2,7 @@
   cursor: pointer;
   padding: 20px;
   border-radius: 10px;
+  height: 100%;
   border: 1px solid var(--border-color);
   backdrop-filter: blur(1px);
   overflow: hidden;
@@ -13,13 +14,31 @@
 
 .container-card {
   transition: transform 50ms ease-in-out;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.circle-ligth {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 60px;
+  height: 60px;
+  user-select: none;
+  filter: blur(50px);
+  background-color: var(--color-circle-light);
+  border-radius: 50%;
+  /* z-index: 5; */
 }
 
 
 .card:hover {
   backdrop-filter: blur(20px);
-  background: var(--hover-card);
-  box-shadow: 0px 0px 20px 10px var(--hover-card);
+  /* background: var(--hover-card); */
+  /* filter: drop-shadow(0px 0px 10px var(--hover-card)); */
+  box-shadow: 0px 0px 40px 0px var(--hover-card);
+  z-index: 5;
 }
 
 .card::before {

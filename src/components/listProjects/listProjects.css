@@ -3,7 +3,31 @@
   backdrop-filter: blur(5px);
   background-color: var(--color-backdrop);
   border-radius: 10px;
+  width: 100%;
+  height: 95vh;
+  max-width: 1400px;
   opacity: 1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 99;
+}
+
+.expand-card h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: var(--font-secondary);
+}
+
+.expand-card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .backdrop {
@@ -12,22 +36,48 @@
   left: 0;
   width: 100%;
   height: 100%;
-  display: grid;
-  place-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 99;
+  z-index: 95;
+  opacity: 1;
+}
+
+.button-close {
+  background-color: var(--hover-card);
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50%;
+  opacity: 0.6;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.button-close:hover {
   opacity: 1;
 }
 
 .card-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-gap: 10px;
   width: 100%;
+  place-items: stretch;
 }
 
 @media (min-width: 768px) {
   .card-list {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .expand-card {
+    width: 90%;
   }
 }

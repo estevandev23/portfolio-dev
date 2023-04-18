@@ -3,6 +3,18 @@ body {
   color: var(--color-words-primary);
   min-height: 100vh;
   position: relative;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  /* cambiame el scroll de color  */
+  background: var(--background-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--scroll-color);
+  border-radius: 10px;
 }
 
 .bg-img{
