@@ -4,7 +4,8 @@
   background-color: var(--color-backdrop);
   border-radius: 20px;
   width: 100%;
-  max-width: 1400px;
+  max-width: 600px;
+  max-height: 90vh;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -16,7 +17,7 @@
 
 .expand-card::-webkit-scrollbar {
   background-color: var(--color-backdrop);
-  border-radius: 20px;
+  border-radius: 0px 20px 20px 0px;
 }
 
 .expand-card h5 {
@@ -32,6 +33,7 @@
   margin-bottom: 10px;
   font-family: var(--font-secondary);
   margin: 0;
+  text-align: justify;
 }
 
 .expand-card img {
@@ -52,6 +54,12 @@
   opacity: 1;
 }
 
+.header-expand {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
 .button-close {
   background-color: var(--hover-card);
   cursor: pointer;
@@ -59,9 +67,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 20px;
-  right: 20px;
   padding: 5px 10px;
   font-size: 14px;
   font-weight: 600;
@@ -93,10 +98,10 @@
 
 .url-links-expand {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: start;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
 }
 
 .tags-expand {
@@ -126,6 +131,7 @@
   flex-direction: column;
   gap: 3px;
   font-family: var(--font-secondary);
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
@@ -146,17 +152,12 @@
 
 @media (min-width: 1024px) {
 
-  .image-content-container {
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
-  }
 
   .content-main-info > p {
     font-size: 18px;
   }
 
   .expand-card img {
-    width: 40%;
+    width: 100%;
   }
 }

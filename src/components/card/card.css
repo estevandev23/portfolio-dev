@@ -12,6 +12,15 @@
   gap: 15px;
 }
 
+.tags-container {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 8px;
+  z-index: -1;
+}
+
 .container-card {
   transition: transform 50ms ease-in-out;
   position: relative;
@@ -21,15 +30,14 @@
 
 .circle-ligth {
   position: absolute;
-  top: -15px;
-  left: -15px;
-  width: 60px;
-  height: 60px;
+  top: -60px;
+  left: -60px;
+  width: 140px;
+  height: 140px;
   user-select: none;
-  filter: blur(50px);
+  filter: blur(90px);
   background-color: var(--color-circle-light);
   border-radius: 50%;
-  /* z-index: 5; */
 }
 
 
@@ -83,14 +91,25 @@
   align-items: center;
 }
 
+.card-urls a {
+  z-index: 1;
+}
+
 .date-card {
   font-size: 12px;
   font-family: var(--font-primary) !important;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .description-card svg{
   fill: var(--color-words-primary);
   width: 14px;
+  z-index: -1;
+}
+
+.description-card > svg{
+  z-index: -1;
 }
 
 .description-card {

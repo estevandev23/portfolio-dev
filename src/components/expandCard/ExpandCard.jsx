@@ -33,16 +33,19 @@ export default function ExpandCard ({ idLayout, setSetIdLayout }) {
         <>
           <div className='backdrop' onClick={() => setSetIdLayout(null)} />
           <motion.div animate='show' initial='hidden' exit='hidden' variants={variants} layoutId={idLayout.id} className='expand-card'>
-            <motion.h5 variants={item}>{idLayout.element.name}</motion.h5>
+            <div className='header-expand'>
+              <motion.h5 variants={item}>{idLayout.element.name}</motion.h5>
+              <motion.button className='button-close' onClick={() => setSetIdLayout(null)}>X</motion.button>
+            </div>
             <div className='image-content-container'>
               <motion.img variants={item} src={idLayout.element.image[0]} />
               <div className='content-main-info'>
                 <motion.p variants={item}>{idLayout.element.description}</motion.p>
                 {idLayout.element.indications && (
-                  <motion.div variants={item} className='indications-list'>
+                  <motion.strong variants={item} className='indications-list'>
                     Indications:
                     <Indications indications={idLayout.element.indications} variants={item} />
-                  </motion.div>
+                  </motion.strong>
                 )}
                 <motion.div variants={item} className='url-links-expand'>
                   <LinksUrlIcons url={idLayout.element.url} />
@@ -53,7 +56,6 @@ export default function ExpandCard ({ idLayout, setSetIdLayout }) {
                 <motion.p variants={item} className='date-expand'>Date: {monthTransform(idLayout.element.date)}</motion.p>
               </div>
             </div>
-            <motion.button className='button-close' onClick={() => setSetIdLayout(null)}>X</motion.button>
           </motion.div>
         </>
       )}
