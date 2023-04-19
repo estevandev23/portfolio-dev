@@ -27,24 +27,25 @@ const item = {
   }
 }
 
+function List ({ setSetIdLayout }) {
+  return MyList.map((element) => (
+    <Card
+      name={element.name}
+      description={element.description}
+      url={element.url}
+      image={element.image}
+      tags={element.tags}
+      date={element.date}
+      key={element.id}
+      id={element.id}
+      setIdLayout={setSetIdLayout}
+      element={element}
+      item={item}
+    />
+  )).reverse()
+}
+
 export default function ListProjects () {
-  function List ({ setSetIdLayout }) {
-    return MyList.map((element) => (
-      <Card
-        name={element.name}
-        description={element.description}
-        url={element.url}
-        image={element.image}
-        tags={element.tags}
-        date={element.date}
-        key={element.id}
-        id={element.id}
-        setIdLayout={setSetIdLayout}
-        element={element}
-        item={item}
-      />
-    )).reverse()
-  }
   const [idLayout, setSetIdLayout] = useState(null)
 
   return (
