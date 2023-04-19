@@ -38,10 +38,12 @@ export default function ExpandCard ({ idLayout, setSetIdLayout }) {
               <motion.img variants={item} src={idLayout.element.image[0]} />
               <div className='content-main-info'>
                 <motion.p variants={item}>{idLayout.element.description}</motion.p>
-                <div className='indications-list'>
-                  Indications:
-                  <Indications indications={idLayout.element.indications} variants={item} />
-                </div>
+                {idLayout.element.indications && (
+                  <motion.div variants={item} className='indications-list'>
+                    Indications:
+                    <Indications indications={idLayout.element.indications} variants={item} />
+                  </motion.div>
+                )}
                 <motion.div variants={item} className='url-links-expand'>
                   <LinksUrlIcons url={idLayout.element.url} />
                 </motion.div>

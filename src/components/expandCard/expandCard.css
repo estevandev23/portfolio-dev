@@ -31,6 +31,7 @@
   font-weight: 400;
   margin-bottom: 10px;
   font-family: var(--font-secondary);
+  margin: 0;
 }
 
 .expand-card img {

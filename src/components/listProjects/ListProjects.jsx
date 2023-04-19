@@ -5,10 +5,6 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import ExpandCard from '../expandCard/ExpandCard'
 
-function animation3D (e, iam) {
-  console.log(e, iam)
-}
-
 const container = {
   hidden: { opacity: 0, y: -10 },
   show: {
@@ -31,26 +27,24 @@ const item = {
   }
 }
 
-function List ({ setSetIdLayout }) {
-  return MyList.reverse().map((element) => (
-    <Card
-      name={element.name}
-      description={element.description}
-      url={element.url}
-      image={element.image}
-      tags={element.tags}
-      date={element.date}
-      key={element.id}
-      id={element.id}
-      setIdLayout={setSetIdLayout}
-      element={element}
-      item={item}
-      onMouseEnter={(e) => animation3D(e, this)}
-    />
-  ))
-}
-
 export default function ListProjects () {
+  function List ({ setSetIdLayout }) {
+    return MyList.map((element) => (
+      <Card
+        name={element.name}
+        description={element.description}
+        url={element.url}
+        image={element.image}
+        tags={element.tags}
+        date={element.date}
+        key={element.id}
+        id={element.id}
+        setIdLayout={setSetIdLayout}
+        element={element}
+        item={item}
+      />
+    )).reverse()
+  }
   const [idLayout, setSetIdLayout] = useState(null)
 
   return (
