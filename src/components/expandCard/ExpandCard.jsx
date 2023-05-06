@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import React from 'react'
 import LinksUrlIcons from '../linksUrlIcons/LinksUrlIcons'
 import './expandCard.css'
-import TagList from '../../tagsList/TagList'
+import TagList from '../tagsList/TagList'
 import monthTransform from '../../logic/monthTransform'
 import Indications from '../indications/Indications'
 

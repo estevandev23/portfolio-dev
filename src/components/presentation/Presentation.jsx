@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion'
 import './presentation.css'
-import { NavLink } from 'react-router-dom'
-import { ArrowNext } from '../Icons'
 import SocialIcons from '../socialIcons/SocialIcons'
+import ButtonNext from '../buttonNext/ButtonNext'
 
 const container = {
   hidden: { opacity: 0, y: 8 },
@@ -39,12 +38,7 @@ export default function Presentation () {
         <motion.a variants={item} href='cv.pdf' className='button-download' download>Download CV</motion.a>
       </div>
       <motion.img variants={item} src='avatar.svg' />
-      <NavLink to='/about' className='button-next'>
-        <motion.span variants={item}>
-          <ArrowNext />
-        </motion.span>
-        <motion.p variants={item}>Go it</motion.p>
-      </NavLink>
+      <ButtonNext to='/about' item={item} text='Go it' />
     </motion.section>
   )
 }

@@ -1,0 +1,40 @@
+
+.button-next {
+  margin: auto;
+  max-width: max-content;
+  color: var(--color-backdrop-invert);
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 1;
+  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+
+.button-next span{
+  padding: 5px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotate {
+  transform: rotate(180deg)!important;
+}
+
+.button-next span svg{
+  width: 25px;
+  fill: var(--color-backdrop-invert);
+  transition: fill 0.3s ease-in-out;
+}
+
+.button-next:hover {
+  color: var(--color-words-primary);
+  opacity: 0.5;
+}
+
+.button-next:hover span svg {
+  fill: var(--color-words-primary);
+}

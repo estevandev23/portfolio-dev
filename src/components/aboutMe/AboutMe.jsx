@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import EducationItem from './EducationItem'
 import './aboutMe.css'
 import { NavLink } from 'react-router-dom'
+import ButtonNext from '../buttonNext/ButtonNext'
+import GroupButtonNavigate from '../groupButtonNavigate/GroupButtonNavigate'
 
 const container = {
   hidden: { opacity: 0, y: 10 },
@@ -41,6 +43,7 @@ export default function AboutMe () {
           <motion.p variants={item}>I have been working in personal projects since 2022, I achieving to improve my skills, I'm finding make clean code and these projects have been very important for me</motion.p>
         </EducationItem>
       </div>
+      <GroupButtonNavigate backButton toNext='/skills' toBack='/' item={item}/>
     </motion.div>
   )
 }

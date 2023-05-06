@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import './card.css'
 import { useLayoutEffect, useRef, useState } from 'react'
 import LinksUrlIcons from '../linksUrlIcons/LinksUrlIcons'
-import TagList from '../../tagsList/TagList'
+import TagList from '../tagsList/TagList'
 import { Arrow } from '../Icons'
 
 const childrens = {

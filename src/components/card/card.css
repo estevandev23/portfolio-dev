@@ -65,6 +65,7 @@
   0% {
     transform: skewX(45deg) translateX(650px);
   }
+
   20% {
     transform: skewX(45deg) translateX(-550px);
   }
@@ -82,6 +83,7 @@
   object-fit: cover;
   width: 100%;
   aspect-ratio: 16/9;
+  border-radius: 10px;
 }
 
 .card-urls {
@@ -102,13 +104,13 @@
   z-index: -1;
 }
 
-.description-card svg{
+.description-card svg {
   fill: var(--color-words-primary);
   width: 14px;
   z-index: -1;
 }
 
-.description-card > svg{
+.description-card>svg {
   z-index: -1;
 }
 
@@ -119,7 +121,7 @@
 }
 
 @media (min-width: 768px) {
-  .description-card  {
+  .description-card {
     font-size: 16px;
   }
 }

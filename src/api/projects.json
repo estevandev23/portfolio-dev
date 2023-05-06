@@ -7,7 +7,7 @@
       "public": "https://registro-prac.up.railway.app/index.php",
       "github":"https://github.com/EstebanV23/TrabajoRegistro"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683396622/RegisterProject.png"],
     "tags": [
       "PHP",
       "MySQL",
@@ -25,7 +25,7 @@
       "public": "https://nike-production.up.railway.app/index.php",
       "github":"https://github.com/EstebanV23/nike"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683396742/NikeClone.png"],
     "tags": [
       "PHP",
       "MySQL",
@@ -44,7 +44,7 @@
       "public": "https://puzzle-prac.netlify.app/puzzle.html",
       "github":"https://github.com/EstebanV23/TrabajoRegistro"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683396622/PuzzlePractice.png"],
     "tags": [
       "HTML",
       "CSS",
@@ -60,7 +60,7 @@
       "public": "https://control-dom.netlify.app/",
       "github":"https://github.com/EstebanV23/tallerDom"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683396985/ControlDOM.png"],
     "tags": [
       "HTML",
       "CSS",
@@ -77,7 +77,7 @@
       "public": "https://login-php.up.railway.app/view/templates/home.php",
       "github":"https://github.com/EstebanV23/login_with_php"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397046/RolesProject.png"],
     "tags": [
       "PHP",
       "MySql",
@@ -95,7 +95,7 @@
       "public": "https://estebanv23.github.io/00-front-coex/src/",
       "github":"https://github.com/EstebanV23/00-front-coex"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/10/01/14/31/roof-2805712_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397101/QuizJs.png"],
     "tags": [
       "HTML",
       "CSS",
@@ -111,7 +111,7 @@
       "public": "https://estebanv23.github.io/01-calculator/src/",
       "github":"https://github.com/EstebanV23/01-calculator"
     },
-    "image": ["https://cdn.pixabay.com/photo/2015/01/12/10/44/lost-places-597166_1280.jpg"],
+    "image": ["http://res.cloudinary.com/dqmmaotv4/image/upload/v1683397132/Calculator.png"],
     "tags": [
       "HTML",
       "CSS",
@@ -127,7 +127,7 @@
       "public": "https://estebanv23.github.io/02-dashboard/",
       "github":"https://github.com/EstebanV23/02-dashboard"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397191/Dashboard.png"],
     "tags": [
       "HTML",
       "CSS"
@@ -143,7 +143,7 @@
       "public": "https://estebanv23.github.io/03-pokeApi/",
       "github":"https://github.com/EstebanV23/03-pokeApi"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397256/PokeApi.png"],
     "tags": [
       "HTML",
       "CSS",
@@ -159,7 +159,7 @@
       "public": "https://estebanv23.github.io/05-triki/",
       "github":"https://github.com/EstebanV23/05-triki"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397284/TrikiGame.png"],
     "tags": [
       "HTML",
       "CSS",
@@ -175,7 +175,7 @@
       "public": "https://esteban-follow-card.netlify.app/",
       "github":"https://github.com/EstebanV23/practica-react/tree/main/projects/follow-card"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397565/FollowCard.png"],
     "tags": [
       "CSS",
       "Javascript",
@@ -191,7 +191,7 @@
       "public": "https://esteban-tic-tac-toe.netlify.app/",
       "github":"https://github.com/EstebanV23/practica-react/tree/main/projects/tic-tac-toe"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397886/TrikiUpdate.png"],
     "tags": [
       "CSS",
       "Javascript",
@@ -207,7 +207,7 @@
       "public": "https://esteban-mouse-follow.netlify.app/",
       "github":"https://github.com/EstebanV23/practica-react/tree/main/projects/mouse-follow"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683398099/MouseFollow.png"],
     "tags": [
       "CSS",
       "Javascript",
@@ -223,7 +223,7 @@
       "public": "https://front-coex-test.netlify.app/",
       "github":"https://github.com/EstebanV23/test-coex"
     },
-    "image": ["https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg"],
+    "image": ["https://res.cloudinary.com/dqmmaotv4/image/upload/v1683398351/CreditsPeople.png"],
     "tags": [
       "CSS",
       "Javascript",

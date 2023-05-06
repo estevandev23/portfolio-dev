@@ -82,7 +82,7 @@ export function GitHubIcon () {
   )
 }
 
-export function ArrowNext () {
+export function ArrowNext ({ ...props }) {
   return (
     <motion.svg
       animate={{ x: [0, 6, 0] }}
@@ -94,6 +94,7 @@ export function ArrowNext () {
       }}
       xmlns='http://www.w3.org/2000/svg'
       viewBox='0 96 960 960'
+      {...props}
     >
       <path d='M255 815l-42-42 198-198-198-198 42-42 240 240-240 240zm253 0l-42-42 198-198-198-198 42-42 240 240-240 240z' />
     </motion.svg>
