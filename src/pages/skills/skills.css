@@ -3,13 +3,12 @@
   place-items:center;
   max-width: 1200px;
   margin: auto;
-  padding: 20px 10px;
+  padding: 20px;
 }
 
 .container-skills h2 {
-  font-size: 2.5rem;
+  font-size: 32px;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 20px;
   width: 100%;
 }

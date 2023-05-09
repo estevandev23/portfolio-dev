@@ -51,6 +51,15 @@ export default function ListProjects () {
   return (
     <>
       <motion.div
+        variants={container}
+        initial='hidden'
+        animate='show'
+        className='container-list-title'
+      >
+        <motion.h1 variants={item} className='title-project'>Projects</motion.h1>
+        <motion.p variants={item} className='description-project'>Here you can see <strong>my projects</strong>, you can see the <strong>code</strong> and <strong>the demo</strong></motion.p>
+      </motion.div>
+      <motion.div
         initial='hidden'
         animate='show'
         variants={container}

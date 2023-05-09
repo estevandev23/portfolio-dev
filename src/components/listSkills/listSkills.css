@@ -1,0 +1,21 @@
+.list-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list-skills svg {
+  width: 30px;
+}
+
+.list-skills-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.list-skills-item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
