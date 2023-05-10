@@ -17,6 +17,21 @@
   --color-circle-light: rgb(44, 44, 44);
   --light-color: rgba(255, 255, 255, 0.39);
   --scroll-color: rgba(0, 0, 0, 0.301);
+  --php: #8993be;
+  --javascript: #f7df1e;
+  --springboot: #6db33f;
+  --nodejs: #83cd29;
+  --mysql: #4479a1;
+  --mongodb: #47a248;
+  --react: #61dafb;
+  --html: #e34c26;
+  --css: #264de4;
+  --bootstrap: #563d7c;
+  --tailwind: #38b2ac;
+  --git: #f34f29;
+  --github: #181717;
+  --mariadb: #004d64;
+  --firebase: #ffae00;  
 }
 
 *{
@@ -39,4 +54,5 @@
   --color-circle-light: rgba(255, 255, 255, 0.404);
   --light-color: rgba(255, 255, 255, 0.034);
   --scroll-color: rgba(255, 255, 255, 0.301);
+  --github: #dddddd;
 }

@@ -1,21 +1,196 @@
 .list-skills {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 6px;
 }
 
 .list-skills svg {
-  width: 30px;
+  width: 80px;
 }
 
 .list-skills-content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 4px;
 }
 
-.list-skills-item {
+.list-skills-content .list-skills-item {
   display: flex;
   align-items: center;
+  flex-direction: column;
   gap: 2px;
+  position: relative;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.list-skills-content .list-skills-item::before, .list-skills-content .list-skills-item::after {
+  content: "";
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  border-top: 2px solid;
+}
+
+.list-skills-content .list-skills-item::after {
+  opacity: 0.3;
+}
+
+.HTML {
+  color: var(--html);
+}
+
+.HTML::after, .HTML::before {
+  border-color: var(--html);
+}
+
+.HTML::after {
+  background: linear-gradient(to bottom, var(--html) 0%, transparent);
+}
+
+.NODEJS {
+  color: var(--nodejs);
+}
+
+.NODEJS::after, .NODEJS::before {
+  border-color: var(--nodejs);
+}
+
+.NODEJS::after {
+  background: linear-gradient(to bottom, var(--nodejs) 0%, transparent);
+}
+
+.JAVASCRIPT {
+  color: var(--javascript);
+}
+
+.JAVASCRIPT::after, .JAVASCRIPT::before {
+  border-color: var(--javascript);
+}
+
+.JAVASCRIPT::after {
+  background: linear-gradient(to bottom, var(--javascript) 0%, transparent);
+}
+
+.CSS {
+  color: var(--css);
+}
+
+.CSS::after, .CSS::before {
+  border-color: var(--css);
+}
+
+.CSS::after {
+  background: linear-gradient(to bottom, var(--css) 0%, transparent);
+}
+
+.TAILWIND {
+  color: var(--tailwind);
+}
+
+.TAILWIND::after, .TAILWIND::before {
+  border-color: var(--tailwind);
+}
+
+.TAILWIND::after {
+  background: linear-gradient(to bottom, var(--tailwind) 0%, transparent);
+}
+
+.REACT {
+  color: var(--react);
+}
+
+.REACT::after, .REACT::before {
+  border-color: var(--react);
+}
+
+.REACT::after {
+  background: linear-gradient(to bottom, var(--react) 0%, transparent);
+}
+
+.GIT {
+  color: var(--git);
+}
+
+.GIT::after, .GIT::before {
+  border-color: var(--git);
+}
+
+.GIT::after {
+  background: linear-gradient(to bottom, var(--git) 0%, transparent);
+}
+
+.GITHUB {
+  color: var(--github);
+  fill: var(--github);
+}
+
+.GITHUB::after, .GITHUB::before {
+  border-color: var(--github);
+}
+
+.GITHUB::after {
+  background: linear-gradient(to bottom, var(--github) 0%, transparent);
+}
+
+.MYSQL {
+  color: var(--mysql);
+}
+
+.MYSQL::after, .MYSQL::before {
+  border-color: var(--mysql);
+}
+
+.MYSQL::after {
+  background: linear-gradient(to bottom, var(--mysql) 0%, transparent);
+}
+
+.MARIADB {
+  color: var(--mariadb);
+}
+
+.MARIADB::after, .MARIADB::before {
+  border-color: var(--mariadb);
+}
+
+.MARIADB::after {
+  background: linear-gradient(to bottom, var(--mariadb) 0%, transparent);
+}
+
+.MONGODB {
+  color: var(--mongodb);
+}
+
+.MONGODB::after, .MONGODB::before {
+  border-color: var(--mongodb);
+}
+
+.MONGODB::after {
+  background: linear-gradient(to bottom, var(--mongodb) 0%, transparent);
+}
+
+.FIREBASE {
+  color: var(--firebase);
+}
+
+.FIREBASE::after, .FIREBASE::before {
+  border-color: var(--firebase);
+}
+
+.FIREBASE::after {
+  background: linear-gradient(to bottom, var(--firebase) 0%, transparent);
+}
+
+.SPRINGBOOT {
+  color: var(--springboot);
+}
+
+.SPRINGBOOT::after, .SPRINGBOOT::before {
+  border-color: var(--springboot);
+}
+
+.SPRINGBOOT::after {
+  background: linear-gradient(to bottom, var(--springboot) 0%, transparent);
 }

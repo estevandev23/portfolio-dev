@@ -22,41 +22,41 @@
 }
 
 .php {
-  background: #8993be;
+  background: var(--php);
 }
 
 .javascript, .js {
-  background: #f7df1e;
+  background: var(--javascript);
 }
 
 .springboot {
-  background: #6db33f;
+  background: var(--springboot);
 }
 
 .nodejs, .node {
-  background: #83cd29;
+  background: var(--nodejs);
 }
 
 .mysql {
-  background: #4479a1;
+  background: var(--mysql);
 }
 
 .mongodb {
-  background: #47a248;
+  background: var(--mongodb);
 }
 
 .react {
-  background: #61dafb;
+  background: var(--react);
 }
 
 .html {
-  background: #e34c26;
+  background: var(--html);
 }
 
 .css {
-  background: #264de4;
+  background: var(--css);
 }
 
 .bootstrap {
-  background: #563d7c;
+  background: var(--bootstrap);
 }

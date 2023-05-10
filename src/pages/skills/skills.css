@@ -2,8 +2,18 @@
   display: grid;
   place-items:center;
   max-width: 1200px;
-  margin: auto;
+  margin: 0px auto;
+}
+
+.container-main-skills {
   padding: 20px;
+}
+
+.content-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
 }
 
 .container-skills h2 {
