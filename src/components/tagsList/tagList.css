@@ -60,3 +60,19 @@
 .bootstrap {
   background: var(--bootstrap);
 }
+
+.tailwind {
+  background: var(--tailwind);
+}
+
+.zustand {
+  background: var(--zustand);
+}
+
+.cloudinary {
+  background: var(--cloudinary);
+}
+
+.python {
+  background: var(--python);
+}

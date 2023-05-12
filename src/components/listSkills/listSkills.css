@@ -36,6 +36,11 @@
 
 .list-skills-content .list-skills-item::after {
   opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.list-skills-content .list-skills-item:hover::after {
+  opacity: 0.6;
 }
 
 .HTML {

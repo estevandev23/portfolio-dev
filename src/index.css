@@ -31,7 +31,10 @@
   --git: #f34f29;
   --github: #181717;
   --mariadb: #004d64;
-  --firebase: #ffae00;  
+  --firebase: #ffae00;
+  --cloudinary: #f7f7f7;
+  --zustand: #ffae00;
+  --python: #3776ab;
 }
 
 *{

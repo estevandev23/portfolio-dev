@@ -2,7 +2,12 @@
   display: grid;
   place-items:center;
   max-width: 1200px;
-  margin: 0px auto;
+  margin: auto;
+  min-height: 90vh;
+}
+
+.content-skills {
+  width: 100%;  
 }
 
 .container-main-skills {

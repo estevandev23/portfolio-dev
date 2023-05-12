@@ -30,11 +30,13 @@ export default function Skills () {
           exit='hidden'
           className='container-skills'
         >
-          <motion.h2 variants={item}>Skills</motion.h2>
-          <div className='content-list'>
-            <ListSkills item={item} />
+          <div className='content-skills'>
+            <motion.h2 variants={item}>Skills</motion.h2>
+            <div className='content-list'>
+              <ListSkills item={item} />
+            </div>
+            <GroupButtonNavigate toBack='/about' toNext='/projects' item={item} backButton />
           </div>
-          <GroupButtonNavigate toBack='/about' toNext='/projects' item={item} backButton />
         </motion.div>
       </div>
     </>
