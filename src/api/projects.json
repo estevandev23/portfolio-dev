@@ -198,6 +198,24 @@
     "date": "09-02-2023"
   },
   {
+    "id": 16,
+    "name": "Old Portfolio",
+    "description": "This portfolio help me to practice animations and styles, I did it with vanilla js, I learned a lot with this project, I hope you like it.",
+    "url": {
+      "public": "https://estebanv23.github.io/portfolio/",
+      "github": "https://github.com/EstebanV23/portfolio"
+    },
+    "image": [
+      "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683858498/OldPortfolio.png"
+    ],
+    "tags": [
+      "HTML",
+      "Javascript",
+      "Css"
+    ],
+    "date": "17-02-2023"
+  },
+  {
     "id": 10,
     "name": "Follow Card",
     "description": "The first project I did with React js, I practiced with the useState and simple components, also I learned how React work with the virtual DOM, how it's render the components, the props, and how to compile the code.",
