@@ -5,7 +5,7 @@
     "description": "It's te first project I made in PHP, it's a register form with a database connection, it's little responsive, I learned some things for my nexts projects.",
     "url": {
       "public": "https://registro-prac.up.railway.app/index.php",
-      "github": "https://github.com/EstebanV23/TrabajoRegistro"
+      "github": "https://github.com/estevandev23/TrabajoRegistro"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683396622/RegisterProject.png"
@@ -27,7 +27,7 @@
     ],
     "url": {
       "public": "https://nike-production.up.railway.app/index.php",
-      "github": "https://github.com/EstebanV23/nike"
+      "github": "https://github.com/estevandev23/nike"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683396742/NikeClone.png"
@@ -48,7 +48,7 @@
     "description": "This project is a puzzle game, it's made with HTML, CSS and JavaScript, it's a simple layout, I practiced a lot with the logic of the game, also I did with a library, I can say that this libary was the first I used in my projects.",
     "url": {
       "public": "https://puzzle-prac.netlify.app/puzzle.html",
-      "github": "https://github.com/EstebanV23/TrabajoRegistro"
+      "github": "https://github.com/estevandev23/TrabajoRegistro"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683396622/PuzzlePractice.png"
@@ -66,7 +66,7 @@
     "description": "Here I could practice with the DOM, I could add, remove and modify elements, I could also add events to the elements, add conditional styles depending on the events that happened",
     "url": {
       "public": "https://control-dom.netlify.app/",
-      "github": "https://github.com/EstebanV23/tallerDom"
+      "github": "https://github.com/estevandev23/tallerDom"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683396985/ControlDOM.png"
@@ -90,7 +90,7 @@
     ],
     "url": {
       "public": "https://login-php.up.railway.app/view/templates/home.php",
-      "github": "https://github.com/EstebanV23/login_with_php"
+      "github": "https://github.com/estevandev23/login_with_php"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397046/RolesProject.png"
@@ -110,7 +110,7 @@
     "description": "This project is the simple quiz about Javascript, I did with vanilla js, I had to practice for resolve the problems that I'm fiding of the road, It's a simple layout but I'm proud of it, I learned a lot with this project, I hope you like it.",
     "url": {
       "public": "https://estevandev23.github.io/00-front-coex/src/",
-      "github": "https://github.com/EstebanV23/00-front-coex"
+      "github": "https://github.com/estevandev23/00-front-coex"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397101/QuizJs.png"
@@ -128,7 +128,7 @@
     "description": "The calculator is the most popular project that we can do it for initial our walk in the world of programming, I did it with vanilla js, although I had done in the other languages, I never do it with javascript",
     "url": {
       "public": "https://estevandev23.github.io/01-calculator/src/",
-      "github": "https://github.com/EstebanV23/01-calculator"
+      "github": "https://github.com/estevandev23/01-calculator"
     },
     "image": [
       "http://res.cloudinary.com/dqmmaotv4/image/upload/v1683397132/Calculator.png"
@@ -146,7 +146,7 @@
     "description": "With this project, I practiced a lot of css, I did it with grid and flexbox, I also align the elements in the layout for the good view of the page.",
     "url": {
       "public": "https://estevandev23.github.io/02-dashboard/",
-      "github": "https://github.com/EstebanV23/02-dashboard"
+      "github": "https://github.com/estevandev23/02-dashboard"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397191/Dashboard.png"
@@ -167,7 +167,7 @@
     ],
     "url": {
       "public": "https://estevandev23.github.io/03-pokeApi/",
-      "github": "https://github.com/EstebanV23/03-pokeApi"
+      "github": "https://github.com/estevandev23/03-pokeApi"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397256/PokeApi.png"
@@ -185,7 +185,7 @@
     "description": "Weather app is the project that I did with the weather api, I did it with vanilla js, I practiced a lot with the api, I learned a lot with this project, I hope you like it.",
     "url": {
       "public": "https://estevandev23.github.io/04-weather/",
-      "github": "https://github.com/EstebanV23/03-weather"
+      "github": "https://github.com/estevandev23/03-weather"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683983261/WeatherApp.png"
@@ -203,7 +203,7 @@
     "description": "This project is the triki game, I did it with vanilla js, The game consist in that the first player put a X in the board, then the bot put a O, and the first player put a X, and so on, the first player that put three X or O in a row, column or diagonal, win the game, I did it with the poo paradigm.",
     "url": {
       "public": "https://estevandev23.github.io/05-triki/",
-      "github": "https://github.com/EstebanV23/05-triki"
+      "github": "https://github.com/estevandev23/05-triki"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397284/TrikiGame.png"
@@ -221,7 +221,7 @@
     "description": "This portfolio help me to practice animations and styles, I did it with vanilla js, I learned a lot with this project, I hope you like it.",
     "url": {
       "public": "https://estevandev23.github.io/portfolio/",
-      "github": "https://github.com/EstebanV23/portfolio"
+      "github": "https://github.com/estevandev23/portfolio"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683858498/OldPortfolio.png"
@@ -239,7 +239,7 @@
     "description": "The first project I did with React js, I practiced with the useState and simple components, also I learned how React work with the virtual DOM, how it's render the components, the props, and how to compile the code.",
     "url": {
       "public": "https://esteban-follow-card.netlify.app/",
-      "github": "https://github.com/EstebanV23/practica-react/tree/main/projects/follow-card"
+      "github": "https://github.com/estevandev23/practica-react/tree/main/projects/follow-card"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397565/FollowCard.png"
@@ -257,7 +257,7 @@
     "description": "This project is the update of the triki game that I did with vanilla js, this time I did it with React js, I practiced with the useState, useEffect, and I modifing the game logic, now it's make to play with two players, adding the logic of the turns, and the winner, I also did the logic of the draw, and the logic of the restart button. Really good practice with this.",
     "url": {
       "public": "https://esteban-tic-tac-toe.netlify.app/",
-      "github": "https://github.com/EstebanV23/practica-react/tree/main/projects/tic-tac-toe"
+      "github": "https://github.com/estevandev23/practica-react/tree/main/projects/tic-tac-toe"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683397886/TrikiUpdate.png"
@@ -275,7 +275,7 @@
     "description": "With this project I was be able to practice with the useState, useEffect, I also add and remove event listeners of the components, I learning how the function of the event listeners in js",
     "url": {
       "public": "https://esteban-mouse-follow.netlify.app/",
-      "github": "https://github.com/EstebanV23/practica-react/tree/main/projects/mouse-follow"
+      "github": "https://github.com/estevandev23/practica-react/tree/main/projects/mouse-follow"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683398099/MouseFollow.png"
@@ -293,7 +293,7 @@
     "description": "This project was the test that I did, when I practiced React tought with MongoDB, I also I did it with react router DOM, connect with node js for the make the CRUD",
     "url": {
       "public": "https://front-coex-test.netlify.app/",
-      "github": "https://github.com/EstebanV23/test-coex"
+      "github": "https://github.com/estevandev23/test-coex"
     },
     "image": [
       "https://res.cloudinary.com/dqmmaotv4/image/upload/v1683398351/CreditsPeople.png"

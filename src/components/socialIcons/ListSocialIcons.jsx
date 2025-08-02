@@ -1,27 +1,32 @@
-import { GitHub, Instagram, Linkedin } from '../Icons'
+import { GitHub, Instagram, Linkedin } from "../Icons";
 
 const listSocialIcons = [
   {
-    id: 'icon1',
+    id: "icon1",
     component: <GitHub />,
-    path: 'https://github.com/estebanv23'
+    path: "https://github.com/estevandev23",
   },
   {
-    id: 'icon2',
+    id: "icon2",
     component: <Linkedin />,
-    path: 'https://linkedin.com/in/esteban-villamizar'
+    path: "https://linkedin.com/in/esteban-villamizar",
   },
   {
-    id: 'icon3',
+    id: "icon3",
     component: <Instagram />,
-    path: 'https://instagram.com/estebandev_'
-  }
-]
+    path: "https://instagram.com/estebandev_",
+  },
+];
 
-export default function ListSocialIcons () {
-  return listSocialIcons.map(socialIcon => (
-    <a href={socialIcon.path} target='_blank' key={socialIcon.id} rel='noreferrer'>
+export default function ListSocialIcons() {
+  return listSocialIcons.map((socialIcon) => (
+    <a
+      href={socialIcon.path}
+      target="_blank"
+      key={socialIcon.id}
+      rel="noreferrer"
+    >
       {socialIcon.component}
     </a>
-  ))
+  ));
 }
