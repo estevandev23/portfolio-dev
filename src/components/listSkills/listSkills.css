@@ -199,3 +199,27 @@
 .SPRINGBOOT::after {
   background: linear-gradient(to bottom, var(--springboot) 0%, transparent);
 }
+
+.PYTHON {
+  color: var(--python);
+}
+
+.PYTHON::after, .PYTHON::before {
+  border-color: var(--python);
+}
+
+.PYTHON::after {
+  background: linear-gradient(to bottom, var(--python) 0%, transparent);
+}
+
+.NEXTJS {
+  color: var(--nextjs);
+}
+
+.NEXTJS::after, .NEXTJS::before {
+  border-color: var(--nextjs);
+}
+
+.NEXTJS::after {
+  background: linear-gradient(to bottom, var(--nextjs) 0%, transparent);
+}

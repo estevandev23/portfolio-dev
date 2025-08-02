@@ -1,11 +1,15 @@
 import { motion } from 'framer-motion'
-import { CssIcon, FirebaseIcon, GitHubIconNew, GitIcon, HtmlIcon, JavascriptIcon, MariaDbIcon, MongoDbIcon, MysqlIcon, NodeJsIcon, ReactIcon, SpringBootIcon, TailwindIcon } from '../Icons'
+import { CssIcon, FirebaseIcon, GitHubIconNew, GitIcon, HtmlIcon, JavascriptIcon, MariaDbIcon, MongoDbIcon, MysqlIcon, NodeJsIcon, ReactIcon, SpringBootIcon, TailwindIcon, Python, NextJs } from '../Icons'
 import './listSkills.css'
 
 export const skills = [
   {
     title: 'Frontend',
     skills: [
+      {
+        name: 'NextJs',
+        icon: <NextJs />
+      },
       {
         name: 'Html',
         icon: <HtmlIcon />
@@ -38,6 +42,10 @@ export const skills = [
       {
         name: 'SpringBoot',
         icon: <SpringBootIcon />
+      },
+      {
+        name: 'Python',
+        icon: <Python />
       }
     ]
   },

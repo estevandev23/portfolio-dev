@@ -37,7 +37,7 @@ export default function Presentation () {
         <motion.p variants={item}>How are you? I'm so grateful that you are here, welcome and go it</motion.p>
         <motion.a variants={item} href='cv.pdf' className='button-download' download>Download CV</motion.a>
       </div>
-      <motion.img variants={item} src='avatar.svg' />
+      <motion.img variants={item} src='foto2.png' className='image' />
       <ButtonNext to='/about' item={item} text='Go it' />
     </motion.section>
   )

@@ -55,10 +55,7 @@ export function WebIcon () {
 
 export function SpringBootIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 48 48'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
       <path
         fill='#8bc34a'
         d='M43.982 23.635c.069-4.261-.891-9.328-2.891-15.273L39.523 3.7l-2.13 4.433a9.1 9.1 0 01-.38.698C33.514 5.827 28.974 4 24 4 12.954 4 4 12.954 4 24s8.954 20 20 20 20-8.954 20-20c0-.123-.016-.242-.018-.365z'
@@ -73,10 +70,7 @@ export function SpringBootIcon () {
 
 export function FirebaseIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 48 48'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
       <path
         fill='#ff8f00'
         d='M8 37L23.234 8.436a.84.84 0 011.494.02L30 19 8 37z'
@@ -99,10 +93,7 @@ export function FirebaseIcon () {
 
 export function MongoDbIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 24 24'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
       <path
         fill='#FFF'
         d='M12.546 24l-.639-.219s.078-3.257-1.091-3.49c-.78-.904.125-38.338 2.93-.125 0 0-.966.484-1.138 1.31-.186.81-.062 2.524-.062 2.524z'
@@ -145,10 +136,7 @@ export function MongoDbIcon () {
 
 export function MariaDbIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 48 48'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
       <linearGradient
         id='LM~2Uo~9gOxvOpOltQzTja'
         x1='21.893'
@@ -171,10 +159,7 @@ export function MariaDbIcon () {
 
 export function MysqlIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 24 24'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
       <path
         fill='#105E86'
         d='M6.532 19.554c-.146 0-.276-.009-.386-.026v.485c.226.09.413.135.566.135.573 0 1.101-.35 1.583-1.053.616-.91 1.114-2.371 1.492-4.379h-.88a14.741 14.741 0 01-.835 3.419c.028-.209-.041-.576-.205-1.102l-.727-2.317h-.91l1.014 3.099c.153.465.23.775.23.927 0 .219-.098.417-.295.594-.164.144-.379.218-.647.218z'
@@ -205,10 +190,7 @@ export function MysqlIcon () {
 
 export function GitHubIconNew () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 64 64'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
       <path d='M32 10c12.15 0 22 9.85 22 22 0 9.768-6.369 18.045-15.179 20.916l.006-.021s-1.485-.696-1.453-1.938c.035-1.367 0-4.556 0-5.727 0-2.01-1.272-3.434-1.272-3.434s9.977.112 9.977-10.533c0-4.107-2.147-6.245-2.147-6.245s1.128-4.385-.39-6.245c-1.701-.184-4.749 1.626-6.05 2.472 0 0-2.062-.846-5.492-.846s-5.492.846-5.492.846c-1.301-.846-4.348-2.656-6.05-2.472-1.518 1.86-.39 6.245-.39 6.245s-2.147 2.137-2.147 6.245c0 10.645 9.977 10.533 9.977 10.533s-1.005 1.136-1.225 2.806c-.696.236-1.721.528-2.549.528-2.165 0-3.812-2.105-4.416-3.078-.595-.96-1.815-1.766-2.953-1.766-.749 0-1.115.375-1.115.803s1.05.727 1.743 1.521c1.461 1.674 1.435 5.438 6.641 5.438.565 0 1.719-.139 2.588-.256-.005 1.185-.007 2.436.012 3.167.031 1.242-1.453 1.938-1.453 1.938l.006.021C16.369 50.045 10 41.768 10 32c0-12.15 9.85-22 22-22z' />
     </svg>
   )
@@ -216,10 +198,7 @@ export function GitHubIconNew () {
 
 export function GitIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 48 48'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
       <path
         fill='#F4511E'
         d='M42.2 22.1L25.9 5.8c-.5-.5-1.2-.8-1.9-.8s-1.4.3-1.9.8l-3.5 3.5 4.1 4.1c.4-.2.8-.3 1.3-.3 1.7 0 3 1.3 3 3 0 .5-.1.9-.3 1.3l4 4c.4-.2.8-.3 1.3-.3 1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3c0-.5.1-.9.3-1.3l-4-4c-.1 0-.2.1-.3.1v10.4c1.2.4 2 1.5 2 2.8 0 1.7-1.3 3-3 3s-3-1.3-3-3c0-1.3.8-2.4 2-2.8V18.8c-1.2-.4-2-1.5-2-2.8 0-.5.1-.9.3-1.3l-4.1-4.1L5.8 22.1c-.5.5-.8 1.2-.8 1.9s.3 1.4.8 1.9l16.3 16.3c.5.5 1.2.8 1.9.8s1.4-.3 1.9-.8l16.3-16.3c.5-.5.8-1.2.8-1.9s-.3-1.4-.8-1.9z'
@@ -230,10 +209,7 @@ export function GitIcon () {
 
 export function ReactIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 24 24'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
       <circle cx='12' cy='11.999' r='2.147' fill='#53C1DE' />
       <path
         fill='#53C1DE'
@@ -245,10 +221,7 @@ export function ReactIcon () {
 
 export function TailwindIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 48 48'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
       <linearGradient
         id='iOmQfjoCC4Hw6zVwRjSDha'
         x1='21.861'
@@ -270,10 +243,7 @@ export function TailwindIcon () {
 
 export function CssIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 48 48'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
       <path fill='#0277BD' d='M41 5H7l3 34 14 4 14-4 3-34z' />
       <path fill='#039BE5' d='M24 8v31.9l11.2-3.2L37.7 8z' />
       <path
@@ -290,10 +260,7 @@ export function CssIcon () {
 
 export function JavascriptIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 48 48'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
       <path fill='#ffd600' d='M6 42V6h36v36H6z' />
       <path
         fill='#000001'
@@ -324,10 +291,7 @@ export function NodeJsIcon () {
 
 export function HtmlIcon () {
   return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 48 48'
-    >
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
       <linearGradient
         id='SNASnMitCxQrIYk4GDibta'
         x1='18.208'
@@ -541,5 +505,121 @@ export function Instagram () {
         d='M30 37H18c-3.859 0-7-3.14-7-7V18c0-3.86 3.141-7 7-7h12c3.859 0 7 3.14 7 7v12c0 3.86-3.141 7-7 7zM18 13c-2.757 0-5 2.243-5 5v12c0 2.757 2.243 5 5 5h12c2.757 0 5-2.243 5-5V18c0-2.757-2.243-5-5-5H18z'
       />
     </motion.svg>
+  )
+}
+
+export function Python () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      viewBox='8 4 48 48'
+      width={80}
+      height={80}
+    >
+      <path
+        fill='url(#python__a)'
+        d='M31.885 16c-8.124 0-7.617 3.523-7.617 3.523l.01 3.65h7.752v1.095H21.197S16 23.678 16 31.876c0 8.196 4.537 7.906 4.537 7.906h2.708v-3.804s-.146-4.537 4.465-4.537h7.688s4.32.07 4.32-4.175v-7.019S40.374 16 31.885 16zm-4.275 2.454a1.394 1.394 0 1 1 0 2.79 1.393 1.393 0 0 1-1.395-1.395c0-.771.624-1.395 1.395-1.395z'
+      />
+      <path
+        fill='url(#python__b)'
+        d='M32.115 47.833c8.124 0 7.617-3.523 7.617-3.523l-.01-3.65H31.97v-1.095h10.832S48 40.155 48 31.958c0-8.197-4.537-7.906-4.537-7.906h-2.708v3.803s.146 4.537-4.465 4.537h-7.688s-4.32-.07-4.32 4.175v7.019s-.656 4.247 7.833 4.247zm4.275-2.454a1.393 1.393 0 0 1-1.395-1.395 1.394 1.394 0 1 1 1.395 1.395z'
+      />
+      <defs>
+        <linearGradient
+          id='python__a'
+          x1={19.075}
+          x2={34.898}
+          y1={18.782}
+          y2={34.658}
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stopColor='#387EB8' />
+          <stop offset={1} stopColor='#366994' />
+        </linearGradient>
+        <linearGradient
+          id='python__b'
+          x1={28.809}
+          x2={45.803}
+          y1={28.882}
+          y2={45.163}
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stopColor='#FFE052' />
+          <stop offset={1} stopColor='#FFC331' />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+
+export function NextJs () {
+  return (
+    <svg
+      width='1em'
+      height='1em'
+      viewBox='0 0 180 180'
+      fontSize={80}
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <mask
+        id='nextjs_icon_dark__mask0_408_139'
+        style={{
+          maskType: 'alpha'
+        }}
+        maskUnits='userSpaceOnUse'
+        x={0}
+        y={0}
+        width={180}
+        height={180}
+      >
+        <circle cx={90} cy={90} r={90} fill='black' />
+      </mask>
+      <g mask='url(#nextjs_icon_dark__mask0_408_139)'>
+        <circle
+          cx={90}
+          cy={90}
+          r={87}
+          fill='black'
+          stroke='white'
+          strokeWidth={6}
+        />
+        <path
+          d='M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z'
+          fill='url(#nextjs_icon_dark__paint0_linear_408_139)'
+        />
+        <rect
+          x={115}
+          y={54}
+          width={12}
+          height={72}
+          fill='url(#nextjs_icon_dark__paint1_linear_408_139)'
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id='nextjs_icon_dark__paint0_linear_408_139'
+          x1={109}
+          y1={116.5}
+          x2={144.5}
+          y2={160.5}
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stopColor='white' />
+          <stop offset={1} stopColor='white' stopOpacity={0} />
+        </linearGradient>
+        <linearGradient
+          id='nextjs_icon_dark__paint1_linear_408_139'
+          x1={121}
+          y1={54}
+          x2={120.799}
+          y2={106.875}
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stopColor='white' />
+          <stop offset={1} stopColor='white' stopOpacity={0} />
+        </linearGradient>
+      </defs>
+    </svg>
   )
 }

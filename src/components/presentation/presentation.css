@@ -89,3 +89,12 @@
     width: 50%;
   }
 }
+
+.image {
+  border-radius: 9999px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  -webkit-mask-image: radial-gradient(circle, black 0%, transparent 100%);
+  mask-image: radial-gradient(circle 250px at 50% 40%, black 80%, transparent 100%);
+}
